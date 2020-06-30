@@ -1,0 +1,33 @@
+.newRecordModal {
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 20vh;
+    animation-name: popFade;
+    animation-duration: 1s;
+
+    h1 {
+        font-size: 78px;
+        font-family: 'Indie Flower', cursive;
+        background: -webkit-linear-gradient(#B22222,#B22222, #FFD700, #FFD700);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    h3 {
+        font-size: 52px;
+        color: #FFD700;
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+    }
+}
+
+@keyframes popFade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

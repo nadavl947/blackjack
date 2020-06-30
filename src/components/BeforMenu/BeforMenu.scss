@@ -1,0 +1,64 @@
+.beforMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: popFade;
+    animation-duration: 1s;
+
+    h1 {
+        font-size: 90px;
+        background: -webkit-linear-gradient(#B22222,#B22222, #eee, #B22222, #B22222);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        font-family: 'Indie Flower', cursive;
+    }
+
+    img {
+        margin: 60px 0;
+    }
+
+    button {
+        cursor: pointer;
+        outline: none;
+        width: 200px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        border: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 2px 3px 19px -4px rgba(0,0,0,0.8);
+        background-color: #1d1d1f;
+        transition: 0.5s;
+        &:hover {
+            box-shadow: 2px 3px 39px -4px rgba(250,250,250,0.8);
+        }
+
+        p {
+            font-size: 22px;
+            color: white;
+            font-family: 'Indie Flower', cursive;
+        }
+        i {
+            color: white;
+            font-size: 22px;
+        }
+    }
+
+    h3 {
+        font-size: 42px;
+        color: #FFD700;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+
+@keyframes popFade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}

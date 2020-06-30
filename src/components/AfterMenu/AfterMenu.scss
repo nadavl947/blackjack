@@ -1,0 +1,41 @@
+.afterMenu {
+  animation-name: popFade;
+  animation-duration: 1s;
+
+  h3 {
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: "Indie Flower", cursive;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  button {
+    width: 200px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 0 20px;
+    box-shadow: 2px 3px 19px -4px rgba(0, 0, 0, 0.8);
+    background-color: #1d1d1f;
+    transition: 0.5s;
+    color: white;
+    &:hover {
+      box-shadow: 2px 3px 39px -4px rgba(250, 250, 250, 0.8);
+    }
+
+    p {
+        font-size: 22px;
+        color: white;
+    }
+  }
+}
+
+@keyframes popFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

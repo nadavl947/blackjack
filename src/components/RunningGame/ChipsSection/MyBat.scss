@@ -1,0 +1,23 @@
+.myBat {
+    margin-bottom: 50px;
+    padding: 0 20px;
+    width: 200px;
+    height: 100px;
+    .bats {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 100px;
+        box-shadow: 2px 3px 10px -4px rgba(0,0,0,0.8);
+        border-radius: 100px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 28px;
+        font-family: 'Indie Flower', cursive;
+    }
+}

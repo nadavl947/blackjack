@@ -1,0 +1,29 @@
+.chpisSection {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 430px;
+
+    img {
+      width: 100px;
+      height: 100px;
+      box-shadow: 2px 3px 10px -4px rgba(0, 0, 0, 0.8);
+      border-radius: 100px;
+    }
+
+  .chips {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bankMoney {
+    text-align: center;
+    h3 {
+      margin-top: 10px;
+      color: white;
+      font-size: 28px;
+      font-family: 'Indie Flower', cursive;
+    }
+  }
+}

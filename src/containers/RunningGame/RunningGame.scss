@@ -1,0 +1,41 @@
+.runningGame {
+    animation-name: popFade;
+    animation-duration: 1s;
+    width: 100%;
+    height: 100%;
+    padding: 30px 70px;
+    box-sizing: border-box;
+
+    .gameBtns {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            background: -webkit-linear-gradient(rgb(97, 97, 97), #1d1d1f, #1d1d1f);
+            box-shadow: 2px 3px 10px -4px rgba(0,0,0,0.8);
+
+            i {
+                color: white;
+                font-size: 30px;
+            }
+        }
+    }
+
+    .gameSection {
+        display: flex;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
+@keyframes popFade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}

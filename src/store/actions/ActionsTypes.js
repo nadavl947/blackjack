@@ -1,0 +1,11 @@
+export const START_NEW_GAME = 'START_NEW_GAME';
+export const ADD_A_CHIP_TO_BAT = 'ADD_A_CHIP_TO_BAT';
+export const FIRST_DEAL_HAND = 'FIRST_DEAL_HAND';
+export const HIT_USER_NEW_CARD = 'HIT_USER_NEW_CARD';
+export const USER_LOST_ROUND = 'USER_LOST_ROUND';
+export const USER_WON_ROUND = 'USER_WON_ROUND';
+export const DREW_ROUND = 'DREW_ROUND';
+export const HIT_DEALER_NEW_CARD = 'HIT_DEALER_NEW_CARD';
+export const HANDLE_RECORD_MODAL = 'HANDLE_RECORD_MODAL';
+export const MOVE_TO = 'MOVE_TO';
+export const ALL_IN = 'ALL_IN';
